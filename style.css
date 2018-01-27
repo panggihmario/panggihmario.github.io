@@ -1,8 +1,11 @@
 h2{
-  color: red;
+  color: grey;
   background-color: black;
   text-align: center;
   margin: 20px;
+  height: 60px;
+  position: static;
+
 }
 h3{
   text-align: center;
@@ -10,12 +13,12 @@ h3{
 .image{
   border: solid 1px black;
   display: inline-block;
-  margin: 24px;
+  margin: 50px;
 
 }
 img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 
 }
 .info{
@@ -24,4 +27,7 @@ img {
   background-color: black;
   color: white;
   text-align: center;
+}
+body{
+  background-color: grey;
 }
