@@ -1,0 +1,27 @@
+h2{
+  color: red;
+  background-color: black;
+  text-align: center;
+  margin: 20px;
+}
+h3{
+  text-align: center;
+}
+.image{
+  border: solid 1px black;
+  display: inline-block;
+  margin: 24px;
+
+}
+img {
+  height: 200px;
+  width: 200px;
+
+}
+.info{
+  border: solid 2px;
+  margin: 10px 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
