@@ -1,0 +1,143 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+}
+.header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../img/jalan.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding: 100px 0px 30px 0px;
+}
+/* padding untuk memberi jarak diatas dan dibawah foto */
+
+.header-name{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    margin-top: 35px;
+}
+
+.header-occupation{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #5dc2d8;
+}
+
+.header-tagline{
+    color: white;
+}
+
+.profile-image{
+    margin: auto;
+    max-height: 150px;
+    border: 5px solid white;
+    background-color: white  
+}
+
+
+.about-info{
+    text-align: center;
+    border-bottom: dashed 1px;
+    padding: 10px 10px 10px 0px;
+}
+
+.about-img{
+    max-width: 100px;
+    min-width: 250px;
+    border: 6px solid white;
+    
+}
+
+.about-img-container{
+    float: center;
+    height: 100px;
+}
+
+.row.row-eq-height {
+    display: flex;
+}
+
+@media only screen and (max-width: 850px) {
+    .about-img-container{
+        float: none;
+    }
+    .row.row-eq-height {
+        display: initial;
+    }
+}
+/*MY SKILL*/
+
+.myskill-bg-image {
+    display: block;
+    text-align: center;
+    background: url('../img/awan1.jpg') no-repeat center center scroll;
+    background-size: cover;
+    height: inherit;
+}
+
+.myskill-title{
+    color: #161515;
+}
+
+.myskill-container{
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+.myskill-progress-title{
+    padding: 10px 10px 10px 0px;
+    color: black;
+}
+
+/*MY SKILL*/
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.myeducation-container {
+    text-align: center;
+    
+}
+/* .container-fluid {
+    background-color: white;
+} */
+/*CONTACT*/
+
+
+/*FOOTER*/
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+/*FOOTER*/
+
+
+/*GENERAL*/
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/*GENERAL*/
