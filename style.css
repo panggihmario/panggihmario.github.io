@@ -31,3 +31,8 @@ img {
 body{
   background-color: grey;
 }
+footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
